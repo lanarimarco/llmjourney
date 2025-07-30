@@ -30,7 +30,7 @@ Avevo fatto convertire al LLM il codice di `B£WK20CL.CLLE` ma c'era qualcosa ch
 - [Quale è il comportamento del PGM che stiamo drogando?](docs/B%C2%A3WK20CL_CLLE.md)
 
 
-C'era un return di troppo nel PGM drogato!!!
+[C'era un return di troppo nel PGM drogato!!!](https://labdocs.smeup.com/it/H3LS04-NW25000469/LS25002920/B%C2%A3WK20CL)
 
 # Documentare
 
