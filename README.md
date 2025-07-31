@@ -79,7 +79,7 @@ sequenceDiagram
 Se parliamo di RPGLE Claude è insuperabile.
 Se parliamo di Java, Python, sembrerebbero equivalenti, ma non ho ancora fatto prove comparative.
 
-# Copilod individual Pro
+# Copilot individual Pro
 
 * Modalità ask, edit, agent
 * Possibilità di selezionare LLM
