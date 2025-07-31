@@ -1,6 +1,12 @@
 
 # Sviluppare
+
 - [Feat/jdbc cache driver proxy #96](https://github.com/smeup/kokos-me-rpgle-smeuperp/pull/96)
+
+# Drogare una /COPY
+
+- [.github/copilot-instructions.md](https://github.com/smeup/kokos-me-rpgle-smeuperp/blob/develop/.github/copilot-instructions.md) - prompt di default per Copilot, nella fattispecie: regole per creare una /COPY drogata, ma potrebbe contenere anche altre istruzioni.
+- [feat: Implement B£RND0 Random Number Generator with MT1 and MT2 methods](https://github.com/smeup/kokos-me-rpgle-smeuperp/commit/435df3b041d1bfd1a98e1032bea322f29dd93a0c)
 
 # Capire
 
@@ -8,7 +14,7 @@
 
 ### B£G15M
 
-[B£G15M.rpgle](https://github.com/smeup/kokos-dsl-smeuperp/blob/develop/JASRC/B%C2%A3G15M.rpgle)
+[B£G15M.rpgle](https://github.com/smeup/kokos-dsl-smeuperp/blob/develop/JASRC/B£G15M.rpgle)
 
 Non riuscivo a capire il senso dell'accensione dell'indicatore di errore 35 sia nella call che nell'open.
 ```rpgle
@@ -18,24 +24,24 @@ Non riuscivo a capire il senso dell'accensione dell'indicatore di errore 35 sia 
      C                   ENDIF
      C                   OPEN      B£G15M0L                             35
      C                   EVAL      $$OG15=*IN35
-```
-- [Cosa succede $$OG15 è *OFF piuttosto che *ON](docs/B%C2%A3G15M_Detailed_Scenarios.md)
-- [Program flowchart](docs/B%C2%A3G15M_Complete_Flowchart.md)
+````
+
+* [Cosa succede \$\$OG15 è \*OFF piuttosto che \*ON](docs/B£G15M_Detailed_Scenarios.md)
+* [Program flowchart](docs/B£G15M_Complete_Flowchart.md)
 
 ### Doping di B£WK20CL
 
 Avevo fatto convertire al LLM il codice di `B£WK20CL.CLLE` ma c'era qualcosa che non mi tornava.
 
-- [Cosa succede se devo creare un un file temporaneo che non esiste?](docs/B£WK20CL_Java.md)
-- [Quale è il comportamento del PGM che stiamo drogando?](docs/B%C2%A3WK20CL_CLLE.md)
+* [Cosa succede se devo creare un un file temporaneo che non esiste?](docs/B£WK20CL_Java.md)
+* [Quale è il comportamento del PGM che stiamo drogando?](docs/B£WK20CL_CLLE.md)
 
-
-[C'era un return di troppo nel PGM drogato!!!](https://labdocs.smeup.com/it/H3LS04-NW25000469/LS25002920/B%C2%A3WK20CL)
+[C'era un return di troppo nel PGM drogato!!!](https://labdocs.smeup.com/it/H3LS04-NW25000469/LS25002920/B£WK20CL)
 
 # Documentare
 
-- [README kokos-me-rpgle-smeuperp](https://github.com/smeup/kokos-me-rpgle-smeuperp)
-- [Telemetria in SDK](https://github.com/smeup/kokos-sdk-java-rpgle/blob/develop/docs/TELEMETRY.md)
+* [README kokos-me-rpgle-smeuperp](https://github.com/smeup/kokos-me-rpgle-smeuperp)
+* [Telemetria in SDK](https://github.com/smeup/kokos-sdk-java-rpgle/blob/develop/docs/TELEMETRY.md)
 
 # Fare diagrammi
 
@@ -66,12 +72,20 @@ sequenceDiagram
 
 ## DSLEditor - Interazione tra i key component
 
-- [Component Interaction Diagram](https://github.com/smeup/scpscheditor/blob/develop/docs/technical-documentation.md#component-interaction-diagram)
+* [Component Interaction Diagram](https://github.com/smeup/scpscheditor/blob/develop/docs/technical-documentation.md#component-interaction-diagram)
 
+# Quale LLM utilizzare
 
-# Brainstorming
+Se parliamo di RPGLE Claude è insuperabile.
+Se parliamo di Java, Python, sembrerebbero equivalenti, ma non ho ancora fatto prove comparative.
 
-[Jariko Performance Optimization Report](https://github.com/smeup/jariko/blob/perf/performance_analysis/docs/performance_optimization_report.md)
+# Copilod individual Pro
 
+* Modalità ask, edit, agent
+* Possibilità di selezionare LLM
+* Inline Chat e generazione di test infinite
+* Modalita agent:
 
+  * Richieste standard infinite solo per LLM di OpenAI
+  * Richieste premium (altri LLM) sono limitate a 300 richieste al mese, ogni richiesta aggiuntiva costa 0.04 USD
 
