@@ -1,4 +1,3 @@
-
 # Sviluppare
 
 - [Feat/jdbc cache driver proxy #96](https://github.com/smeup/kokos-me-rpgle-smeuperp/pull/96)
@@ -24,24 +23,30 @@ Non riuscivo a capire il senso dell'accensione dell'indicatore di errore 35 sia 
      C                   ENDIF
      C                   OPEN      B£G15M0L                             35
      C                   EVAL      $$OG15=*IN35
-````
+```
 
 * [Cosa succede \$\$OG15 è \*OFF piuttosto che \*ON](docs/B£G15M_Detailed_Scenarios.md)
 * [Program flowchart](docs/B£G15M_Complete_Flowchart.md)
 
 ### Doping di B£WK20CL
 
-Avevo fatto convertire al LLM il codice di `B£WK20CL.CLLE` ma c'era qualcosa che non mi tornava.
+Avevo fatto convertire al LLM il codice di [`B£WK20CL.CLLE`](https://labdocs.smeup.com/it/H3LS04-NW25000469/LS25002920/B£WK20CL) ma c'era qualcosa che non mi tornava.
 
 * [Cosa succede se devo creare un un file temporaneo che non esiste?](docs/B£WK20CL_Java.md)
 * [Quale è il comportamento del PGM che stiamo drogando?](docs/B£WK20CL_CLLE.md)
 
-[C'era un return di troppo nel PGM drogato!!!](https://labdocs.smeup.com/it/H3LS04-NW25000469/LS25002920/B£WK20CL)
+
 
 # Documentare
 
 * [README kokos-me-rpgle-smeuperp](https://github.com/smeup/kokos-me-rpgle-smeuperp)
 * [Telemetria in SDK](https://github.com/smeup/kokos-sdk-java-rpgle/blob/develop/docs/TELEMETRY.md)
+
+
+# Rendicontare
+
+* [Annual Progress Report – Jariko Project](docs/jariko-report-20250387.md)
+* [Annual Progress Report – MEX smeupERP Project](docs/mex-smeuperp-report-20250387.md)
 
 # Fare diagrammi
 
