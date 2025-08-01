@@ -45,8 +45,8 @@ Avevo fatto convertire al LLM il codice di [`B£WK20CL.CLLE`](https://labdocs.sm
 
 # Rendicontare
 
-* [Annual Progress Report – Jariko Project](docs/jariko-report-20250387.md)
-* [Annual Progress Report – MEX smeupERP Project](docs/mex-smeuperp-report-20250387.md)
+* [Annual Progress Report – Jariko Project](docs/jariko-report-20250387.pdf)
+* [Annual Progress Report – MEX smeupERP Project](docs/kokos-me-rpgle-smeuperp-20250703.pdf)
 
 # Fare diagrammi
 
