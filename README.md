@@ -44,7 +44,7 @@ Avevo fatto convertire al LLM il codice di [`B£WK20CL.CLLE`](https://labdocs.sm
 
 
 # Rendicontare
-
+* [Prompt](https://share.evernote.com/note/8cfd74dc-503b-e6f4-8cfb-efae02bb5dc2)
 * [Annual Progress Report – Jariko Project](docs/jariko-report-20250387.pdf)
 * [Annual Progress Report – MEX smeupERP Project](docs/kokos-me-rpgle-smeuperp-20250703.pdf)
 
