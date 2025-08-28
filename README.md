@@ -74,13 +74,15 @@ sequenceDiagram
     Attivo->>DaValidare: Test superato su KokosLab
     DaValidare-->>DaValidare: Pronta per validazione
 ```
-## Copilot agent
 
-* [Implementazione IN OUT](docs/codingagent-inout.md)
 
 ## DSLEditor - Interazione tra i key component
 
 * [Component Interaction Diagram](https://github.com/smeup/scpscheditor/blob/develop/docs/technical-documentation.md#component-interaction-diagram)
+
+## Copilot agent
+
+* [Implementazione IN OUT](docs/codingagent-inout.md)
 
 # Quale LLM utilizzare
 
