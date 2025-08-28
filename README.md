@@ -74,6 +74,9 @@ sequenceDiagram
     Attivo->>DaValidare: Test superato su KokosLab
     DaValidare-->>DaValidare: Pronta per validazione
 ```
+## Copilot agent
+
+[Copilot agent](docs/copilot_agent.md)
 
 ## DSLEditor - Interazione tra i key component
 
