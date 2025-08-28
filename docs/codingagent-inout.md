@@ -26,9 +26,23 @@
 
 ## Conclusioni
 
-Analizzando la PR finale si vede che è ben progettata e ben implementata, ma ha alterato i programmi di test per far passare i test.
-In modo particolare:
-- ha rimosso la DEFINE, che serve per linkare la data area con la specifica D
+### Pro
+
+Il lavoro è stato svolto seguento lo stesso percorso logico che segurebbe uno sviluppatore umano senza che gli fornissi alcuna indicazione su come procedere.
+ - parsetree -> as
+ - ast -> statement
+ - serializzazione statement
+ - test
+
+Analizzando la PR finale si vede che è molto ben progettata e ben implementata.
+
+Quindi in generale il coding agent si è comportato molto bene.
+
+### Contro
+
+Le specifiche che avevo fornito non citavano l'utilizzo della `DEFINE`, mentre nei test che dovevano essere implementati si. (mio errore)
+Tuttavia l'LLM per portare a termine il task ha alterato i programmi di test:
+- ha rimosso la `DEFINE`, che serve per linkare la data area con la specifica D
 - ha modificato l'utilizzo degli IN ed OUT in modo da esplicitare sempre data area e specifica D
 
 **Test originale indicato nell'issue - DATARREAD.rpgle**
@@ -48,8 +62,3 @@ In modo particolare:
      C     TARGET        DSPLY
      C                   SETON                                          LR
 ```
-Tuttavia attualmente non è possibile impostare l'LLM utilizzato coding agent (è ancora in preview) e quindi potrebbe essere che con Claude si ottengano risultati migliori.
-
-## Next steps
-
-Provare con Claude Code che ha feature analoghe
