@@ -76,7 +76,7 @@ sequenceDiagram
 ```
 ## Copilot agent
 
-[Copilot agent](docs/copilot_agent.md)
+* [Implementazione IN OUT](docs/codingagent-inout.md)
 
 ## DSLEditor - Interazione tra i key component
 
