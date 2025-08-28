@@ -80,7 +80,7 @@ sequenceDiagram
 
 * [Component Interaction Diagram](https://github.com/smeup/scpscheditor/blob/develop/docs/technical-documentation.md#component-interaction-diagram)
 
-## Copilot agent
+# Copilot agent
 
 * [Implementazione IN OUT](docs/codingagent-inout.md)
 
